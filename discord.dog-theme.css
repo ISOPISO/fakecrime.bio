@@ -3,13 +3,13 @@
  * @description A darkened discord theme with a special name.
  * @author ISOPISO
  * @version 1.0
- * @source 
- * @authorId 508863359777505290
+ * @source https://github.com/ISOPISO/discord.dog
+ * @authorId 721129414364102707
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
 
-@import url('');
+@import url('https://isopiso.github.io/discord.dog/discord.dog.css');
 
 /* change colors and variables here */
 :root {
