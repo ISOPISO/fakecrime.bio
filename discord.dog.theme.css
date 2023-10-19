@@ -19,48 +19,48 @@
 	--roundness: 16px;
 
 	/* color of links */
-	--accent-1: hsl(124, 80%, 60%);
+	--accent-1: hsl(171, 80%, 60%);
 	/* color of unread dividers and some indicators */
-	--accent-2: hsl(124, 80%, 60%);
+	--accent-2: hsl(171, 80%, 60%);
 	/* color of accented buttons */
-	--accent-3: hsla(124, 80%, 60%, 0.204);
+	--accent-3: hsla(171, 80%, 60%, 0.388);
 	/* color of accented buttons when hovered */
-	--accent-4: hsla(124, 80%, 60%, 0.24);
+	--accent-4: hsla(170, 80%, 60%, 0.281);
 	/* color of accented buttons when clicked */
 	--accent-5: #1c1c1c;
 
 	/* color of green online dot, discord default is #23a55a */
-	--online-indicator: var(--accent-2);
+	--online-indicator: #23a55a;
 
 	/* color of mentions and messages that mention you */
-	--mention: rgba(71, 235, 82, 0.068);
+	--mention: rgba(71, 235, 227, 0.068);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: rgba(71, 235, 82, 0.068);
+	--mention-hover: rgba(71, 235, 227, 0.068);
 
 	/* color of bright text on colored buttons */
 	--text-1: hsl(0, 0%, 100%);
 	/* color of headings and important text */
 	--text-2: hsl(0, 0%, 100%);
 	/* color of normal text */
-	--text-3: hsl(0, 0%, 73%);
+	--text-3: hsl(0, 0%, 79%);
 	/* color of icon buttons and channels */
-	--text-4: hsl(120, 15%, 40%);
+	--text-4: hsla(0, 0%, 67%, 0.741);
 	/* color of muted channels/chats and timestamps */
-	--text-5: hsl(0, 0%, 52%);
+	--text-5: hsla(177, 72%, 58%, 0.579);
 
 	/* color of dark buttons when clicked */
-	--bg-1: hsl(131, 16%, 20%);
+	--bg-1: hsl(173, 16%, 20%);
 	/* color of dark buttons */
-	--bg-2: hsl(120, 15%, 16%);
+	--bg-2: hsl(175, 15%, 16%);
 	/* color of spacing around panels and secondary elements */
 	--bg-3: #141414;
 	/* main background color */
 	--bg-4: #1c1c1c;
 
 	/* color of channels and icon buttons when hovered */
-	--hover: hsla(124, 20%, 40%, 0.1);
+	--hover: hsla(177, 20%, 40%, 0.1);
 	/* color of channels and icon buttons when clicked or selected */
-	--active: hsla(126, 20%, 40%, 0.2);
+	--active: hsla(174, 20%, 40%, 0.2);
 	/* color of messages when hovered */
 	--message-hover: hsla(220, 0%, 0%, 0.1);
 }
