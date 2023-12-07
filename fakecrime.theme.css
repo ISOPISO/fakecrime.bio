@@ -80,3 +80,26 @@
 	/* color of messages when hovered */
 	--message-hover: hsla(220, 0%, 0%, 0.1);
 }
+
+[class^='tutorialContainer'] svg [class^="wrapper"] > [class^="childWrapper"] img,
+[class^='tutorialContainer'] svg [class^="wrapper"] > [class^="childWrapper"] svg {
+	/* Hide the default icon. */
+	display: none;
+}
+[class^='tutorialContainer'] svg [class^="wrapper"] > [class^="childWrapper"]::after {
+	/* Create a new icon in its place. */
+	content: ' ';
+	display: block;
+	position: relative;
+	width: 42px;
+	height: 42px;
+	line-height: 32px;
+	opacity: 0.8;
+	transition: all 50ms linear;
+	background: url('https://upload.wikimedia.org/wikipedia/commons/a/a4/Power-lightning_icon-icons.com_74466.png') center / contain no-repeat;
+}
+[class^='tutorialContainer'] svg [class^="wrapper"]  > [class^="childWrapper"]:hover::after {
+	/* Transformations for hover effects go here. */
+	opacity: 1;
+	transform: scale(1.1) rotateZ(-10deg);
+}
