@@ -4,7 +4,7 @@
 
 A darkened discord theme with rounded chat and sidebars.
 
-<img width=800 src="https://cdn.discordapp.com/attachments/1124658941092167680/1164511032677511238/image.png?ex=65437a69&is=65310569&hm=6d4d0f6b25a4e6dfb616a585c0a56fbee5149d3ed854eaaa901a0e37116b1bca&">
+<img width=800 src="https://jesus.got-your.info/a4Jc9">
 
 ## install
 
