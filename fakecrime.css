@@ -9,7 +9,7 @@
 	--online-indicator: var(--accent-2);
 
 	/* top left text */
-	--corner-text: 'fakecrime';
+	--corner-text: 'fakecrime.bio';
 
 	/* home icon */
 	bolt: block; /* change to none to hide bolt icon */
@@ -504,7 +504,7 @@ button.button_afdfd9 /* small buttons */,
 	line-height: 32px;
 	opacity: 0.8;
 	transition: all 50ms linear;
-	background: url('https://upload.wikimedia.org/wikipedia/commons/5/52/Zappy.png');
+	background: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Fakecrime.orange.png');
 }
 [class^='tutorialContainer'] svg [class^="wrapper"]  > [class^="childWrapper"]:hover::after {
 	/* Transformations for hover effects go here. */
