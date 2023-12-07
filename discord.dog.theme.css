@@ -11,56 +11,72 @@
 
 @import url('https://isopiso.github.io/discord.dog/discord.dog.css');
 
-/* change colors and variables here */
+/* customize things here */
 :root {
+	/* font, change to 'gg sans' for default discord font*/
+	--font: 'figtree';
+
+	/* color of green online dot, change to #23a55a for default green */
+	--online-indicator: var(--accent-2);
+
+	/* top left icon */
+	--balt-icon: block; /* change to none to hide balt icon */
+	--discord-icon: none; /* change to block to show default discord icon */
+
 	/* amount of spacing and padding */
 	--spacing: 12px;
-	/* radius of round corners */
-	--roundness: 16px;
+
+	/* roundness of big panel outer corners */
+	--roundness-xl: 22px;
+	/* popout panels */
+	--roundness-l: 20px;
+	/* smaller panels, images, embeds */
+	--roundness-m: 16px;
+	/* members, settings inputs */
+	--roundness-s: 12px;
+	/* channels, buttons*/
+	--roundness-xs: 10px;
+	/* searchbar, small elements */
+	--roundness-xxs: 8px;
 
 	/* color of links */
-	--accent-1: hsl(171, 80%, 60%);
+	--accent-1: hsl(25, 85%, 55%);
 	/* color of unread dividers and some indicators */
-	--accent-2: hsl(171, 80%, 60%);
+	--accent-2: hsl(25, 85%, 55%);
 	/* color of accented buttons */
-	--accent-3: hsla(171, 80%, 60%, 0.388);
+	--accent-3: hsl(25, 85%, 55%);
 	/* color of accented buttons when hovered */
-	--accent-4: hsla(170, 80%, 60%, 0.281);
+	--accent-4: hsl(25, 85%, 55%);
 	/* color of accented buttons when clicked */
-	--accent-5: #1c1c1c;
-
-	/* color of green online dot, discord default is #23a55a */
-	--online-indicator: #23a55a;
-
+	--accent-5: hsl(25, 85%, 55%);
 	/* color of mentions and messages that mention you */
-	--mention: rgba(71, 235, 227, 0.068);
+	--mention: hsla(26, 80%, 52%, 0.1);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: rgba(71, 235, 227, 0.068);
+	--mention-hover: hsla(25, 80%, 52%, 0.05);
 
 	/* color of bright text on colored buttons */
-	--text-1: hsl(0, 0%, 100%);
+	--text-1: hsl(0, 0%, 93%);
 	/* color of headings and important text */
-	--text-2: hsl(0, 0%, 100%);
+	--text-2: hsl(0, 0%, 78%);
 	/* color of normal text */
-	--text-3: hsl(0, 0%, 79%);
+	--text-3: hsl(0, 0%, 65%);
 	/* color of icon buttons and channels */
-	--text-4: hsla(0, 0%, 67%, 0.741);
+	--text-4: hsl(0, 0%, 46%);
 	/* color of muted channels/chats and timestamps */
-	--text-5: hsla(177, 72%, 58%, 0.579);
+	--text-5: hsl(0, 0%, 25%);
 
 	/* color of dark buttons when clicked */
-	--bg-1: hsl(173, 16%, 20%);
+	--bg-1: hsl(0, 0%, 8%);
 	/* color of dark buttons */
-	--bg-2: hsl(175, 15%, 16%);
+	--bg-2: hsl(0, 0%, 8%);
 	/* color of spacing around panels and secondary elements */
-	--bg-3: #141414;
+	--bg-3: hsl(0, 0%, 8%);
 	/* main background color */
-	--bg-4: #1c1c1c;
-
+	--bg-4: hsl(0, 0%, 10%);
 	/* color of channels and icon buttons when hovered */
-	--hover: hsla(177, 20%, 40%, 0.1);
+	--hover: hsla(30, 75%, 60%, 0.1);
 	/* color of channels and icon buttons when clicked or selected */
-	--active: hsla(174, 20%, 40%, 0.2);
+	--active: hsla(22, 20%, 40%, 0.2);
 	/* color of messages when hovered */
 	--message-hover: hsla(220, 0%, 0%, 0.1);
 }
