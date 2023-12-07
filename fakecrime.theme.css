@@ -1,15 +1,15 @@
 /**
- * @name discord.dog
+ * @name fakecrime
  * @description A darkened discord theme with a special name.
  * @author ISOPISO
- * @version 1.0
- * @source https://github.com/ISOPISO/discord.dog
+ * @version 1.2
+ * @source https://github.com/ISOPISO/fakecrime
  * @authorId 721129414364102707
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
 
-@import url('https://isopiso.github.io/discord.dog/discord.dog.css');
+@import url('https://isopiso.github.io/fakecrime/fakecrime.css');
 
 /* customize things here */
 :root {
