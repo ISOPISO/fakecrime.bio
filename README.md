@@ -1,6 +1,6 @@
-<img width=800 src="https://cdn.discordapp.com/attachments/1124658941092167680/1164217793290457128/discord.dog.png?ex=65426950&is=652ff450&hm=c8d04693af38651441e9bc440a40deb1413dd952a61fd95df7000353af888f35&">
+<img width=800 src="https://cdn.discordapp.com/attachments/1124658941092167680/1182322762359001149/fk.preview.png?ex=658446e1&is=6571d1e1&hm=62ff472696979cfb574b5e03651a8d062df4509d732f1a6d06514f1f4d6274c3&">
 
-# discord.dog
+# fakecrime
 
 A darkened discord theme with rounded chat and sidebars.
 
@@ -10,6 +10,6 @@ A darkened discord theme with rounded chat and sidebars.
 
 Download this repo.
 
-Put the `discord.dog.theme.css` into your betterdiscord (or other client) theme folder.
+Put the `fakecrime.theme.css` into your betterdiscord (or other client) theme folder.
 
 IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!
